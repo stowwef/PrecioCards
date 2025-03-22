@@ -84,6 +84,12 @@ body {
 
 }
 
+ .cards:nth-child(2){
+
+    height: 345px;
+
+}
+
 i {
 
     font-size: 14px;
