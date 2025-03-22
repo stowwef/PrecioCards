@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto";
+
+}
+
+body {
+
+    background-color: #b5caf0;
+
+}
+
+.contenedor {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 40px;
+
+}
+
+.cards {
+
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background-color: #5194e1;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #235d9f;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.separador {
+
+    border: 1px solid #81abed;
+    width: 250px;
+
+}
+
+
+.titulo {
+
+    color: #efdc50;
+
+}
+
+.precio {
+
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+.resaltador {
+
+    font-size: 30px;
+
+}
+
+.lista {
+
+ list-style: none;
+ margin: 10px;
+
+}
+
+.items {
+
+    color: white;
+    margin: 5px;
+
+}
+
+i {
+
+    font-size: 14px;
+
+}
+
+.buttons{
+
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.buttons:hover {
+
+    background-color: #f3d664;
+
+}
+
+
+
+.buttons-standard {
+
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f3d664;
+    cursor: pointer;
+
+
+
+}
+
+.buttons-standard:hover {
+
+    background-color: #F0F0F0;
+
+
+}
